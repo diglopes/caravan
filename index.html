@@ -11,12 +11,64 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Caravan</title>
 </head>
-	
 
+<body>
+    <nav class="navbar bg-light navbar-light navbar-expand-md">
+        <a href="index.html" class="navbar-brand my-2">
+            <img src="img/caravan.svg" alt="Caravan">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navSupportedContent" aria-controls="navSupportedContent" aria-expanded="false" aria-label="Abrir navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="#" class="dropdown-item">California</a>
+                        <a href="#" class="dropdown-item">Paris</a>
+                        <a href="#" class="dropdown-item">Dublin</a>
+                    </div>
+                </li>
+                <li class="navbar-item"><a href="planos.html" class="nav-link">Planos</a></li>
+                <li class="navbar-item"><a href="contato.html" class="nav-link">Contatos</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalLogin">Login</a></li>
+                <li class="navbar-item"><a href="inscricao.html" class="ml-md-2 btn btn-outline-primary">Inscreva-se</a></li>
+            </ul>
+        </div>
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Entre na Sua Conta</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ex: fulano@provedor.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Senha</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Entrar na Conta</button>
+                            <small id="emailHelp" class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui</a></small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="bootstrap.min.css"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="js/app.js"></script>
 </body>
