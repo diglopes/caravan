@@ -1,7 +1,29 @@
+/* Ajusta o conteúdo para aparecer abaixo da navbar fixa */
 body {
-  margin-top: 76px;
+  padding-top: 76px;
 }
 
 .box-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05), 0 4px 8px 0 rgba(0, 0, 0, .05);
+}
+
+#home-quote {
+  background: url('../img/bg-quote.jpg');
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+
+  /* Retira a caracteristica fixa da navbar no mobile */
+  .fixed-top {
+    position: relative;
+  }
+
+  body {
+    padding-top: 0px;
+  }
+
 }
