@@ -12,6 +12,15 @@
 
 Este projeto tem como objetivo construir um site de uma simulação de Agência de Excursões, para tal, utilizar a integralmente biblioteca Bootstrap 4 e suas dependências para constuir todo o layout das páginas que fazem parte deste projeto.
 
+---
+
+## Features
+
+> Menu de login flutuante com modal
+> [Foto do login](./img/markdown/login.gif)
+
+---
+
 ## Tecnologias
 
 - HTML5
