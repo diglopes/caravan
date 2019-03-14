@@ -17,7 +17,7 @@ Este projeto tem como objetivo construir um site de uma simulação de Agência 
 ## Features
 
 > Menu de login flutuante com modal
-> [Foto do login](./img/markdown/login.gif)
+> ![Foto do login](./img/markdown/login.gif)
 
 ---
 
