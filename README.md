@@ -10,14 +10,20 @@
 
 ## Descrição
 
-Este projeto tem como objetivo construir um site de uma simulação de Agência de Excursões, para tal, utilizar a integralmente biblioteca Bootstrap 4 e suas dependências para constuir todo o layout das páginas que fazem parte deste projeto.
+Este projeto tem como objetivo construir um site de uma simulação de Agência de Excursões, para tal, utilizar integralmente a biblioteca Bootstrap 4 e suas dependências para constuir todo o layout das páginas que fazem parte deste projeto. Não está implementado qualquer função que necessite de acesso ao Backend, portanto, apenas foram utilizadas tecnologias Front-end para a construção deste projeto.
 
 ---
 
-## Features
+## Caracteristicas
 
-> Menu de login flutuante com modal
+> Exemplo do menu de login flutuante com modal
 > ![Foto do login](./img/markdown/login.gif)
+
+- Layout Responsivo
+- Modal de login
+- Carrosel de imagens
+- Perguntas frequentes sanfonada
+- Navegação com dropdown
 
 ---
 
