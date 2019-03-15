@@ -4,7 +4,7 @@
 
 [![Foto do projeto](./img/markdown/caravan.gif)](https://diglopes.github.io/caravan/)
 
-> Este projeto foi criado a partir do curso Bootstrap 4 ministrado pelo Designer e Programador André Rafael na plataforma Origamid.
+> Este projeto foi criado a partir do curso Bootstrap 4 ministrado pelo Designer e Programador André Rafael na plataforma Origamid. Clique na imagem para ser direcionado para o site.
 
 ---
 
