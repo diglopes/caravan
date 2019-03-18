@@ -13,7 +13,7 @@
   <title>Caravan</title>
 </head>
 
-<body class="bg-light">
+<body>
   <!-- Modal -->
   <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo"
     aria-hidden="true">
@@ -84,90 +84,62 @@
     </div>
   </nav>
   <!-- NAVBAR FIM -->
-  <!-- GALERIA INICIO -->
-  <section>
-    <div class="container">
-      <div class="text-center py-5">
-        <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
-        <h2 class="display-4 text-primary">Descubra Dublin</h2>
-      </div>
-      <div class="row">
-        <div class="col-md">
-          <img src="img/local/foto-1.jpg" alt="Foto 1" class="img-fluid mb-4">
-          <img src="img/local/foto-2.jpg" alt="Foto 2" class="img-fluid mb-4">
-          <img src="img/local/foto-3.jpg" alt="Foto 3" class="img-fluid mb-4">
+
+  <!-- INSCREVA-SE INICIO -->
+  <section class="container">
+    <div class="text-center py-5">
+      <span class="h6 d-block">PROGRAME A VIAGEM DO SEU SONHO</span>
+      <h2 class="text-primary display-4">INSCREVA-SE</h2>
+    </div>
+    <div class="row">
+      <form class="col-lg-6">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputNome">Nome</label>
+            <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputCPF">CPF</label>
+            <input type="text" class="form-control" id="inputCPF" placeholder="xxx-xxx-xxx-xx">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Seu email">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="inputSenha">Senha</label>
+            <input type="password" class="form-control" placeholder="Senha de acesso" id="inputSenha">
+          </div>
+          <div class="form-group col-12">
+            <label for="inputEndereco">Endereço</label>
+            <input type="text" class="form-control" placeholder="Número, nome de rua e bairro" id="inputEndereco">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputCidade">Cidade</label>
+            <input type="text" id="inputCidade" class="form-control">
+          </div>
+          <div class="form-group col-md-3 col-6">
+            <label for="inputEstado">Estado</label>
+            <select id="inputEstado" class="form-control">
+              <option>Selecionar</option>
+              <option>Rio de Janeiro</option>
+              <option>São Paulo</option>
+              <option>Paraná</option>
+              <option>Ceará</option>
+              <option>Acre</option>
+            </select>
+          </div>
+          <div class="form-group col-md-3 col-6">
+            <label for="inputCEP">CEP</label>
+            <input type="text" class="form-control" placeholder="xxxxx-xxx" id="inputCEP">
+          </div>
         </div>
 
-        <div class="col-md">
-          <img src="img/local/foto-4.jpg" alt="Foto 4" class="img-fluid mb-4">
-          <img src="img/local/foto-5.jpg" alt="Foto 5" class="img-fluid mb-4">
-        </div>
-
-        <div class="col-md">
-          <img src="img/local/foto-6.jpg" alt="Foto 6" class="img-fluid mb-4">
-          <img src="img/local/foto-7.jpg" alt="Foto 7" class="img-fluid mb-4">
-        </div>
-      </div>
+      </form>
     </div>
   </section>
-  <!-- GALERIA FIM -->
 
-  <!-- TABELA INICIO -->
-  <section class="pb-5">
-    <div class="text-center my-5">
-      <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
-      <h2 class="display-4 text-primary">Próximos Eventos</h2>
-    </div>
-
-    <div class="container text-center">
-
-      <table class="table table-hover">
-        <thead>
-          <tr>
-            <th scope="col">Data</th>
-            <th scope="col">Evento</th>
-            <th scope="col">Local</th>
-            <th scope="col">Ticket</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">23/03</th>
-            <td>Julien Baker</td>
-            <td>The Academy</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-          <tr>
-            <th scope="row">10/04</th>
-            <td>Veronica Akhtar</td>
-            <td>Great Lakegon</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-          <tr>
-            <th scope="row">15/04</th>
-            <td>Blanche West</td>
-            <td>Gaston</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-          <tr>
-            <th scope="row">18/06</th>
-            <td>Homer Burch</td>
-            <td>Xebern</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-          <tr>
-            <th scope="row">20/09</th>
-            <td>Jobe Lawrence</td>
-            <td>Conron</td>
-            <td><a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-  <!-- TABELA FIM -->
-
-
+  <!-- INSCREVA-SE FIM -->
 
   <!-- RODAPÉ INICIO -->
   <footer class="bg-dark text-white">
